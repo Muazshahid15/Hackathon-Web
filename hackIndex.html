@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Resources</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {font-family: "Lato", sans-serif}
+        .mySlides {display: none}
+        .category {margin: 20px 0; padding: 10px; border: 1px solid #ddd; border-radius: 5px;}
+        .category h3 {margin-top: 0;}
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#resources" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESOURCES</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#resources" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RESOURCES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Slideshow Images (optional) -->
+    <div class="mySlides w3-display-container w3-center">
+        <video width="100%" loop autoplay muted preload="auto">
+            <source src="./Learnfree.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>Welcome to Student Resources</h3>
+            <p><b>Find valuable educational resources here!</b></p>
+        </div>
+    </div>
+
+    <!-- The Resources Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="resources">
+        <h2 class="w3-wide">RESOURCES</h2>
+        <p class="w3-opacity"><i>Useful links for students</i></p>
+        
+        <!-- Educational Platforms Category -->
+        <div class="category">
+            <h3>Educational Platforms</h3>
+            <ul class="w3-ul w3-border w3-white w3-text-grey">
+                <li class="w3-padding"><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a> - Free online courses, lessons & practice</li>
+                <li class="w3-padding"><a href="https://openstax.org/" target="_blank">OpenStax</a> - Free college textbooks online</li>
+                <li class="w3-padding"><a href="https://ocw.mit.edu/" target="_blank">MIT OpenCourseWare</a> - Free online course materials</li>
+                <li class="w3-padding"><a href="https://www.futurelearn.com/" target="_blank">FutureLearn</a> - Online courses from top universities</li>
+                <li class="w3-padding"><a href="https://mooc.fi/en/" target="_blank">MOOC.fi</a> - Free online courses from the University of Helsinki</li>
+                <li class="w3-padding"><a href="http://www.openuniversity.edu/" target="_blank">Open University</a> - Distance and online learning courses</li>
+                <li class="w3-padding"><a href="https://www.saylor.org/" target="_blank">Saylor Academy</a> - Free courses for college credit</li>
+                <li class="w3-padding"><a href="https://www.my-mooc.com/en/" target="_blank">My Mooc</a> - Free online courses from various platforms</li>
+            </ul>
+        </div>
+
+        <!-- Productivity Tools Category -->
+        <div class="category">
+            <h3>Productivity Tools</h3>
+            <ul class="w3-ul w3-border w3-white w3-text-grey">
+                <li class="w3-padding"><a href="https://trello.com/" target="_blank">Trello</a> - Project management tool</li>
+                <li class="w3-padding"><a href="https://obsidian.md/" target="_blank">Obsidian</a> - Note-taking app</li>
+                <li class="w3-padding"><a href="https://smallpdf.com/" target="_blank">Smallpdf</a> - Free online PDF tools</li>
+                <li class="w3-padding"><a href="https://doodle.com/en/" target="_blank">Doodle</a> - Scheduling tool</li>
+                <li class="w3-padding"><a href="https://www.codepen.io/" target="_blank">CodePen</a> - Social development environment for front-end designers and developers</li>
+            </ul>
+        </div>
+
+        <!-- Creative Resources Category -->
+        <div class="category">
+            <h3>Creative Resources</h3>
+            <ul class="w3-ul w3-border w3-white w3-text-grey">
+                <li class="w3-padding"><a href="https://www.artstation.com/?sort_by=community&dimension=all" target="_blank">ArtStation</a> - Showcase of art and portfolios</li>
+                <li class="w3-padding"><a href="https://www.photopea.com/" target="_blank">Photopea</a> - Free online image editor</li>
+                <li class="w3-padding"><a href="https://opengameart.org/" target="_blank">OpenGameArt</a> - Free assets for game developers</li>
+                <li class="w3-padding"><a href="https://unsplash.com/" target="_blank">Unsplash</a> - Free high-resolution photos</li>
+                <li class="w3-padding"><a href="https://coolors.co/" target="_blank">Coolors</a> - Color schemes generator</li>
+                <li class="w3-padding"><a href="https://www.instructables.com/" target="_blank">Instructables</a> - DIY projects and how-tos</li>
+                <li class="w3-padding"><a href="https://www.photographylife.com/" target="_blank">Photography Life</a> - Photography tutorials and reviews</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- The Contact Section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Have questions? Reach out to us!</i></p>
+    <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker" style="width:30px"></i> Dallas, TX, US<br>
+            <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+            <i class="fa fa-envelope" style="width:30px"></i> Email: Learnfree_official@proton.me<br>
+        </div>
+        <div class="w3-col m6">
+            <form action="/action_page.php" target="_blank">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                    </div>
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="email" placeholder="Email" required name="Email">
+                    </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- End Page Content -->
+    </div>
+    
+    <!-- Image of location/map (optional) -->
+    <img src="/Users/fam/Documents/88b.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+    
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+    
+    <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 4000);    
+    }
+    
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+    
+    </body>
+    </html>
+    
